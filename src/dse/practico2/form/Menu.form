@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="dse.practico2.form.Menu">
+  <grid id="27dc6" binding="PnlMenu" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15728592"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="70993" class="javax.swing.JLabel" binding="lblTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="28" style="1"/>
+          <text value="BIENVENIDO"/>
+        </properties>
+      </component>
+      <component id="fcacd" class="javax.swing.JButton" binding="btnCrear">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <text value="Crear Nueva Cuenta"/>
+        </properties>
+      </component>
+      <component id="b32b3" class="javax.swing.JButton" binding="btnCuenta">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <text value="Consultar Cuenta Especifica"/>
+        </properties>
+      </component>
+      <component id="45ef6" class="javax.swing.JButton" binding="btnDeposito">
+        <constraints>
+          <grid row="3" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <text value="DEPOSITO"/>
+        </properties>
+      </component>
+      <component id="913b1" class="javax.swing.JButton" binding="btnRetiro">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <text value="RETIRO"/>
+        </properties>
+      </component>
+      <component id="d6e9" class="javax.swing.JButton" binding="btnCuentas">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <text value="Consultar Cuentas"/>
+        </properties>
+      </component>
+      <component id="b5794" class="javax.swing.JButton" binding="btnTransaccion">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <text value="TRANSACCIONES"/>
+        </properties>
+      </component>
+      <component id="fb8ac" class="javax.swing.JButton" binding="btnSalir">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font name="Bodoni MT Black" size="16" style="1"/>
+          <text value="SALIR"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
